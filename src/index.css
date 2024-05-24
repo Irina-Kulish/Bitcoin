@@ -1,0 +1,19 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.mosaic-window-controls button {
+  margin-left: 8px;
+  padding: 4px 8px;
+  border: none;
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.mosaic-window-controls button:hover {
+  background-color: #4cc1c0;
+}
+
+
